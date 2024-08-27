@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+// breakpoints
+/*$desktop-for-eco_friendly: 1370px;
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+$mobile-for-shop_items: 379px;*/
+
+
+// colors
+:root {
+    --black-color: #141519;
+    --font-black-color: #221F1F;
+    --dark-gray-color: #23252b;
+    --card-gray-color: #5A5A5A;
+    --footer-gray-color:#DDBFBF;
+    --light-gray-color-1: #6C757D;
+    --light-gray-color-2: #F5F5F5;
+    --light-gray-color-3: #DADADA;
+    --yelow-color: #FFCC00;
+    --white-color: #fff;
+    --violet-color: #7370BB;
+    --pink-gradient-color: linear-gradient(to right, rgba(217, 92, 245, 0.87), rgba(240, 40, 140, 0.87));
+    --main-font: 'Lato', sans-serif;
+    --title-font: 'Bruno Ace SC', cursive;
+
+}

@@ -1,0 +1,29 @@
+html {
+	scroll-behavior: smooth;
+	font-size: 1px;
+}
+
+html,body {
+	height: 100%;
+}
+body {
+	font-size: 16rem;
+}
+
+#root {
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0;
+}
