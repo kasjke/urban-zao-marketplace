@@ -4,7 +4,13 @@
     -webkit-text-fill-color: transparent;
   }
 
-
-  p{
-    @include text-gradient(rgba(217, 92, 245, 0.87), rgba(240, 40, 140, 0.87));
+@mixin linear-gradient-mixin {
+    background: linear-gradient(
+      90deg, 
+      #2A19CBFF, 
+      #491B97FF, 
+      #B52EE8FF, 
+      #C32255FF, 
+      #CE118FFF
+    );
 }
