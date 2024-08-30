@@ -31,3 +31,35 @@
     @include text-gradient(rgba(217, 92, 245, 0.87), rgba(240, 40, 140, 0.87));
     padding: 10rem;
 }
+
+.navigation-user{
+    margin-top: 8rem;
+    display: flex;
+}
+
+.navigation-user__user{
+    svg{
+        color: var(--white-color);
+        padding: 4rem 12rem 0 0;
+    }
+}
+
+.navigation-user__signin{
+    margin-top: 3rem;
+
+    .navigation-user__link, span{
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 14rem;
+        font-weight: 500;
+        padding: 0 3rem;
+    }
+}
+
+.navigation-user__panel{
+    margin-top: 4rem;
+    svg{
+        padding: 7rem 8rem;
+        color: var(--white-color);
+    }
+}
