@@ -1,12 +1,12 @@
-import { NavigationMenu } from "./header-menu/navigation-menu"
-import { NavigationPanel } from "./header-menu/navigation-panel"
+import React from 'react';
+import { NavigationMenu } from './header-menu/navigation-menu';
+import { NavigationPanel } from './header-menu/navigation-panel';
 
-
-export const Header = () => {
-    return (
-        <div>
-            <NavigationPanel />
-            <NavigationMenu />
-        </div>
-    )
-}
+export const Header: React.FC = () => {
+  return (
+    <header>
+      <NavigationPanel />
+      <NavigationMenu />
+    </header>
+  );
+};
