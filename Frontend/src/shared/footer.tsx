@@ -4,9 +4,9 @@ import { FooterNavigation } from "./footer-menu/footer-navigation";
 
 export const Footer = () => {
     return (
-        <div>
+        <footer>
             <FooterMedia />
             <FooterNavigation />
-        </div>
+        </footer>
     )
 }

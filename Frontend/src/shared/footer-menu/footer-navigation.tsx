@@ -1,7 +1,12 @@
 export const FooterNavigation = () => {
     return (
-        <div>
-            Footer Navigation
+        <div className="footer-navigation">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p></p>
         </div>
     )
 }
