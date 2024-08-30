@@ -73,7 +73,6 @@
 
 .header-search{
     width: 594rem;
-    height: 41rem;
     border-radius: 28rem;
     margin: 4rem 94rem 0 94rem;
     position: relative;
@@ -84,8 +83,9 @@
 }
 
 .header-search__input{
+    height: 42rem;
     width: 100%;
-    padding: 10rem 56rem 10rem;
+    padding: 10rem 56rem;
     box-sizing: border-box;
     outline: none;
     border: none;
