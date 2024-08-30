@@ -1,6 +1,6 @@
 import React from 'react';
+import { NavigationSearch } from './navigation-search';
 import { NavigationSignin } from './navigation-signin';
-import { NavigationUser } from './navigation-user-panel';
 
 export const NavigationPanel: React.FC = () => {
   return (
@@ -13,8 +13,8 @@ export const NavigationPanel: React.FC = () => {
         <div className="header-logo">
           <a href="/" className="header-logo__link">Urban Zen</a>
         </div>
+        <NavigationSearch />
         <NavigationSignin />
-        <NavigationUser />
       </div>
     </>
   );
