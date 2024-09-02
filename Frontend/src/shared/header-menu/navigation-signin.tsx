@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { UserIcon } from '../icons/user';
 import { NavigationUser } from './navigation-user-panel';
 
@@ -9,12 +10,11 @@ export const NavigationSignin: React.FC = () => {
             <UserIcon />
         </div>
         <div className='navigation-user__signin'>
-            <a className='navigation-user__link' href="#">Sign In</a>
+            <Link className='navigation-user__link' to="/signin">Sign In</Link>
             <span>/</span>
-            <a className='navigation-user__link' href="#">Register</a>
+            <Link className='navigation-user__link' to="/register">Register</Link>
         </div>
         <NavigationUser />
     </div>
   );
 };
-  
