@@ -21,9 +21,12 @@
 .navigation-panel {
     background-color: var(--black-color);
     height: 49rem;
+    /*padding: 0 56rem 0 66rem;*/
+}
+
+.navigation-panel__container{
     display: flex;
     justify-content: space-between;
-    padding: 0 56rem 0 66rem;
 }
 
 .header-logo{
