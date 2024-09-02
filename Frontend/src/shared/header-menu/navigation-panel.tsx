@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { NavigationSearch } from './navigation-search';
 import { NavigationSignin } from './navigation-signin';
+
 
 export const NavigationPanel: React.FC = () => {
   return (
@@ -12,7 +14,7 @@ export const NavigationPanel: React.FC = () => {
       <div className="navigation-panel">
         <div className='container navigation-panel__container'>
           <div className="header-logo">
-            <a href="/" className="header-logo__link">Urban Zen</a>
+            <Link to="/" className="header-logo__link">Urban Zen</Link>
           </div>
           <NavigationSearch />
           <NavigationSignin />
