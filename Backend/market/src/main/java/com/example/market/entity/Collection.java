@@ -4,17 +4,16 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.math.BigDecimal;
-
 @Getter
 @Setter
 @Entity
-@Table(name = "carts")
-public class Cart {
+@Table(name = "collections")
+public class Collection {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "cart_id")
+    @Column(name = "collection_id")
     private long id;
-    private BigDecimal total;
-
+    private String name;
+    private String description;
+    private String brand_name;
 }
