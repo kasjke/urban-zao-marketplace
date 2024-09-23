@@ -1,5 +1,6 @@
 package com.example.market.exception.global;
 
+import com.example.market.exception.CategoryNotFound;
 import com.example.market.exception.CustomerNotFound;
 import com.example.market.exception.OrderNotFound;
 import com.example.market.utils.ErrorObject;
@@ -17,6 +18,11 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(CustomerNotFound.class)
     public ResponseEntity<ErrorObject> handleCustomerNotFoundException(CustomerNotFound ex) {
+        return getErrorObjectResponseEntity(ex, HttpStatus.NOT_FOUND);
+    }
+
+    @ExceptionHandler(CategoryNotFound.class)
+    public ResponseEntity<ErrorObject> handleCategoryNotFoundException(CategoryNotFound ex) {
         return getErrorObjectResponseEntity(ex, HttpStatus.NOT_FOUND);
     }
 

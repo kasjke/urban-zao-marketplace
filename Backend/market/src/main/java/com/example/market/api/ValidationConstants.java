@@ -7,5 +7,6 @@ public final class ValidationConstants {
 
     public static final String CUSTOMER_NOT_FOUND = "Customer not found";
     public static final String ORDER_NOT_FOUND = "Order not found";
+    public static final String CATEGORY_NOT_FOUND = "Category not found";
     public static final String INSTANTIATION_ERROR_MESSAGE = "%s shouldn't be instantiated";
 }

@@ -16,4 +16,6 @@ public final class PathConstants {
     public static final String GET_ORDER_BY_ID = API_V1_ORDERS + "/getById/{id}";
     public static final String CREATE_ORDER = API_V1_ORDERS + "/create";
     public static final String API_V1_PRODUCTS = API_V1 + "/products";
+
+    public static final String API_V1_CATEGORIES = API_V1 + "/categories";
 }
