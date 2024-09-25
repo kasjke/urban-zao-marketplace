@@ -3,7 +3,7 @@ ENV DOCKER_BUILDKIT=1
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
-RUN --mount=type=cache,target=/root/.m2 mvn -f pom.xml clean package -DskipTests
+RUN --mount=type=cache,target=/root/.m2 mvn clean package -DskipTests
 
 FROM openjdk:17-jdk-slim
 
