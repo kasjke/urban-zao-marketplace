@@ -9,5 +9,5 @@ public class CartItemDto {
     private long id;
     private ProductDto product;
     private int quantity;
-    private double price;
+    private double total_price;
 }
