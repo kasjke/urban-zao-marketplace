@@ -18,4 +18,6 @@ public final class PathConstants {
     public static final String API_V1_PRODUCTS = API_V1 + "/products";
 
     public static final String API_V1_CATEGORIES = API_V1 + "/categories";
+
+    public static final String API_V1_COLLECTIONS = API_V1 + "/collections";
 }
