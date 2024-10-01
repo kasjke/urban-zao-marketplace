@@ -8,4 +8,6 @@ import lombok.Setter;
 public class CollectionDto {
     private long id;
     private String name;
+    private String description;
+    private String brand_name;
 }
